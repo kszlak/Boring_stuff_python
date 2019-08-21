@@ -1,10 +1,18 @@
 # This program says hi and ask for my age
 
 print('Hi')
-print('What is your name?')  # ask for name
-name = input()
+while True:
+    print('Who are you?')
+    name = input()
+    if name != ('Lil'):
+        continue
+    print ('Hi Lil, please enter pass: ')
+    passwd = input()
+    if passwd == ('jellyfish'):
+        break
 
-print('Really nice to meet you ' + name)
+print ('Access granted Lil, enjoy!')
+print()
 print('The length of your name is: ')
 print(len(name))
 
@@ -15,7 +23,7 @@ print('You will be ' + str(int(age)+1) + ' in a year.') #tell you age in a year
 
 oks = ''
 while oks != 'OK':
-    print('Was it funny? Say OK ')
+    print('Was it funny? Say OK ;)')
     oks = input()
 
 print ('Thank you!')
