@@ -12,3 +12,10 @@ print('What is your age?') #ask for age
 age=input()
 print('Your age is ')
 print('You will be ' + str(int(age)+1) + ' in a year.') #tell you age in a year
+
+oks = ''
+while oks != 'OK':
+    print('Was it funny? Say OK ')
+    oks = input()
+
+print ('Thank you!')
