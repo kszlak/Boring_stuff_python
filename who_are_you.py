@@ -11,3 +11,14 @@ while passwd != 'jellyfish':
     passwd = input()
     if passwd == 'jellyfish':
         print('Hello, enjoy!')
+    break
+
+print ('Your name is ' + name)
+for i in range (5):
+    print (name + ' ' +str(i))
+
+#adding numbers from 0 to 100
+sum = 0
+for num in range (101):
+    sum = sum + num
+print (sum)
