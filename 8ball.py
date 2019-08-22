@@ -22,6 +22,9 @@ def get_answer(number):
     if number == 10:
         return 'Yes. Do it right now!'
 
-r = random.randint(1,10)
-fortune = get_answer(r)
-print (fortune)
+#r = random.randint(1,10)
+#fortune = get_answer(r)
+#print (fortune)
+
+#refactor to one line
+print(get_answer(random.randint(1, 10)))
