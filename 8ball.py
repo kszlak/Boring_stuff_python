@@ -1,30 +1,7 @@
 import random
 
-def get_answer(number):
-    if number == 1:
-        return 'For sure!'
-    if number == 2:
-        return 'Never'
-    if number == 3:
-        return 'Why not'
-    if number == 4:
-        return 'Forget about it'
-    if number == 5:
-        return 'Concentrate and ask again'
-    if number == 6:
-        return 'Be wise'
-    if number == 7:
-        return 'Lets do it'
-    if number == 8:
-        return 'No. I said No.'
-    if number == 9:
-        return 'Seriously?'
-    if number == 10:
-        return 'Yes. Do it right now!'
+get_answer = ['For sure!', 'Never', 'Why not', 'Forget about it',
+              'Concentrate and ask again', 'Be wise', 'Lets do it',
+              'No. I said No.', 'Seriously?', 'Yes. Do it right now!']
 
-#r = random.randint(1,10)
-#fortune = get_answer(r)
-#print (fortune)
-
-#refactor to one line
-print(get_answer(random.randint(1, 10)))
+print(get_answer[random.randint(0, len(get_answer) - 1)])
