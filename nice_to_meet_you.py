@@ -1,4 +1,4 @@
-# This program says hi and ask for my age
+"""Asking for age."""
 
 print('Hi')
 while True:
