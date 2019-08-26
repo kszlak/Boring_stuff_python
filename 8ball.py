@@ -1,3 +1,5 @@
+""" 8Ball """
+
 import random
 
 get_answer = ['For sure!', 'Never', 'Why not', 'Forget about it',
