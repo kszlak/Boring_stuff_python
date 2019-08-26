@@ -1,4 +1,4 @@
-""" 8Ball. """
+""" 8Ball code. """
 
 import random
 

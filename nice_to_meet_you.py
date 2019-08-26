@@ -1,4 +1,4 @@
-"""Asking for age."""
+""" Asking for age code. """
 
 print('Hi')
 while True:

@@ -1,4 +1,4 @@
-"""Comma Code."""
+"""Comma code."""
 
 y = ['sleep', 'eat', 'smile', 'dance']
 
