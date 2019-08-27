@@ -1,9 +1,11 @@
-""" Displaying inventory from a dictionary. """
+""" Displaying inventory from a dictionary after adding some new stuff form  the list. """
 
 stuff = { 'pillow': 12, 'torch': 4, 'rope': 5 }
 my_list = ['pillow', 'line', 'line', 'blanket']
 
+
 def display (inventory):
+    """ Display inventory """
     print( 'Inventory: ' )
     total = 0
     for k,v in inventory.items():
@@ -12,18 +14,15 @@ def display (inventory):
     print ('Sum of items: ' + str(total))
 
 def add_items (inventory, item_list):
+    """ Add item_list to inventory dictionary """
     new_list = {}
     for i in item_list:
         if i not in inventory.keys():
             inventory [i] = 1
-            #print (inventory)
         else:
             x = inventory[i]
             inventory[i] = x+1
-    print(inventory)
+
 
 add_items(stuff, my_list)
 display(stuff)
-
-
-
