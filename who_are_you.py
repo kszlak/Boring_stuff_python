@@ -1,4 +1,4 @@
-""" LilWho are you code. """
+""" Who are you code. """
 
 name = ''
 while name != 'Lil':
