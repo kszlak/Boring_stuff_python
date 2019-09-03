@@ -6,12 +6,12 @@ my_list = ['pillow', 'line', 'line', 'blanket']
 
 def display (inventory):
     """ Display inventory """
-    print( 'Inventory: ' )
+    print( '\nInventory: \n' )
     total = 0
     for k,v in inventory.items():
         print (k + ': ' + str(v))
         total = total + v
-    print ('Sum of items: ' + str(total))
+    print ('\nSum of items: ' + str(total))
 
 def add_items (inventory, item_list):
     """ Add item_list to inventory dictionary """
